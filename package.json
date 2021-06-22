@@ -1,0 +1,19 @@
+{
+  "name": "test-lingui-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "extract": "lingui extract --config ./lingui-config.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.14.6",
+    "@lingui/cli": "^3.10.2",
+    "@lingui/core": "^3.10.4",
+    "@lingui/macro": "^3.10.2",
+    "babel-plugin-macros": "^3.1.0"
+  }
+}
